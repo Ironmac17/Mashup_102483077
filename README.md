@@ -14,15 +14,11 @@ YouTube Mashup Generator in Python
 About the Project
 -----------------
 
-This repository contains a Python implementation of a\
-**YouTube Mashup Generator**.
+This repository contains a Python implementation of a **YouTube Mashup Generator**.
 
-The system automatically downloads multiple songs of a specified singer from\
-YouTube, extracts audio from each video, trims the first few seconds from each\
-audio file, and merges all the clips into a single mashup output file.
+The system automatically downloads multiple songs of a specified singer from  YouTube, extracts audio from each video, trims the first few seconds from each audio file, and merges all the clips into a single mashup output file.
 
-The project also includes a **web service interface**, allowing users to create\
-mashups directly through a browser and receive the final output via email.
+The project also includes a **web service interface**, allowing users to create  mashups directly through a browser and receive the final output via email.
 
 * * * * *
 
