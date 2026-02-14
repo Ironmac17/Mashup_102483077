@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mashup Web Service</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div id="toast" class="toast"></div>
+
+    <div class="main-wrapper">
+        <div class="container">
+        <h1 class="title">Mashup Web Service</h1>
+            <div class="card">
+                <form id="mashupForm">
+                    <label>Singer Name</label>
+                    <input name="singer" required placeholder="Enter Singer Name">
+
+                    <label>Number of Videos (>10)</label>
+                    <input type="number" name="videos" min="11" required>
+
+                    <label>Duration (>20 sec)</label>
+                    <input type="number" name="duration" min="21" required>
+
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+
+                    <div class="checkbox">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="send_email">
+                            <span class="checkmark"></span>
+                            Send result to email
+                        </label>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="submit" class="submit-btn">Generate Mashup</button>
+                        <button type="reset" class="reset-btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <h3>MASHUP</h3>
+        <p>Built by Nimish Agrawal – 102483077</p>
+        <p>© 2026 All rights reserved</p>
+    </div>
+</footer>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
