@@ -29,7 +29,7 @@ The Mashup Generator is also available as a web application, enabling users to\
 generate mashups through an interactive web interface.
 
 🔗 **Live Website:**\
-(Add your deployed link here if available)
+[Deployed Link](https://mashup-bice.vercel.app/)
 
 * * * * *
 
